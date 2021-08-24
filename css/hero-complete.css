@@ -1,0 +1,67 @@
+.hero {
+  background-image: linear-gradient(to bottom, #0009, #0009), url('../images/hero-small.jpg');
+  background-position: left center;
+  background-size: cover;
+  background-repeat: none;
+}
+
+.hero .container {
+  min-height: 80vh;
+  position: relative;
+}
+
+.hero-content {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content h2 {
+  border: none;
+  font-size: 3rem;
+}
+
+.hero-content p,
+.hero-content .btn {
+  font-size: 1.25rem;
+}
+
+@media only screen and (min-width: 25em) {
+
+  
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .hero {
+    background-image: linear-gradient(to bottom, #0009, #0009), url('../images/hero-medium.jpg');
+    background-position: center;
+  }
+
+  .hero-content {
+    max-width: 45em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .hero {
+    background-image: linear-gradient(to bottom, #0000, #000c), url('../images/hero-large.jpg');
+  }
+
+  .hero-content {
+    text-align: left;
+    bottom: 2rem;
+    left: 0;
+    transform: none;
+    margin: 0 auto;
+  }
+
+}

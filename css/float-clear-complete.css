@@ -1,0 +1,42 @@
+.chapter-intro + p::first-letter {
+  font-weight: bold;
+  font-size: 4rem;
+  color: darkgreen;
+  float: left;
+  margin: -1rem .75rem -1rem 0;
+}
+
+.clear {
+  clear: both;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .illustration {
+    width: 15rem;
+  }
+  
+  .illustration.left {
+    float: left;
+    margin: 1rem 1rem 1rem 0;
+  }
+  
+  .illustration.right {
+    float: right;
+    margin: 1rem 0 1rem 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .illustration.left {
+    margin: 2rem 2rem 2rem -5rem;
+  }
+
+  .illustration.right {
+    margin: 2rem -5rem 2rem 2rem;
+  }
+
+
+}

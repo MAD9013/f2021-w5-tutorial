@@ -1,0 +1,65 @@
+html {
+  font-size: 120%;
+  line-height: 1.5;
+}
+
+h1 {
+  color: #00673e;
+  font-weight: 900;
+  font-size: 2.488rem;
+} 
+
+h2 {
+  font-size: 2.074rem;
+  border-bottom: 1px solid #ccc;
+  margin-top: 4rem;
+}
+
+h3 {
+  font-size: 1.44rem;
+  margin: 0;
+  color: #00673e;
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  h1 {
+    font-size: 3.052rem;
+  } 
+  
+  h2 {
+    font-size: 2.441rem;
+  }
+  
+  h3 {
+    font-size: 1.563rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h1 {
+    font-size: 4.209rem;
+  } 
+  
+  h2 {
+    font-size: 3.157rem;
+  }
+  
+  h3 {
+    font-size: 1.777rem;
+  }
+
+}
